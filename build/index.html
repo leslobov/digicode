@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Digicode test</title>
+</head>
+<body>
+    <div class="top-tabs">
+        <div class="top-tabs__tab">
+            <div class="top-tabs__label">Number of current shapes </div>
+            <div id="shapes-number" class="top-tabs__info"></div>
+        </div>
+        <div class="top-tabs__tab">
+            <div class="top-tabs__label">Surface area occupied by shapes </div>
+            <div id="surface-area" class="top-tabs__info"></div>
+        </div>
+    </div>
+    <div id="application-container" class="app-container"></div>
+    <div class="bottom-elements">
+        <div class="increments">
+            <div id="decrease-elements" class="increments__btn increments__btn-left">
+                <div class="increment__sign">-</div>
+            </div><!--
+            --><div id="increase-elements" class="increments__btn increments__btn-right">
+                <div class="increment__sign">+</div>
+            </div>
+        </div>
+        <div class="info-block">
+            <div class="info-block__label">Number of shapes per sec </div>
+            <div id="shapes-number-per-sec" class="info-block__content"></div>
+        </div>
+        <div class="increments increments_shifted">
+            <div id="gravity-decrease" class="increments__btn increments__btn-left">
+                <div class="increment__sign">-</div>
+            </div><!--
+            --><div id="gravity-increase" class="increments__btn increments__btn-right">
+                <div class="increment__sign">+</div>
+            </div>
+        </div>
+        <div class="info-block">
+            <div class="info-block__label">Gravity Value </div>
+            <div id="gravity-value" class="info-block__content"></div>
+        </div>
+    </div>
+<script type="text/javascript" src="bundle.js"></script></body>
+</html>

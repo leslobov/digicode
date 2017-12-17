@@ -1,0 +1,97 @@
+.top-tabs {
+    display: inline-block;
+    border-top: solid 1px black;
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+}
+.top-tabs .top-tabs__tab {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.top-tabs__tab + .top-tabs__tab {
+    border-left: solid 1px black;
+}
+
+.top-tabs .top-tabs__info {
+    display: inline-block;
+    font-size: large;
+    font-weight: bold;
+    vertical-align: middle;
+    width: 3.2em;
+}
+
+.top-tabs .top-tabs__label {
+    display: inline-block;
+    width: 12em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.bottom-elements {
+    padding: 1em 0;
+}
+
+.increments {
+    display: inline-block;
+}
+
+.increments.increments_shifted {
+    margin-left: 1em;
+}
+
+.increments .increment__sign {
+    font-weight: bold;
+    font-size: 3.9em;
+    color: dodgerblue;
+    line-height: 0.5;
+    text-align: center;
+}
+
+.increments .increments__btn {
+    display: inline-block;
+    padding: 0.2em;
+    border: solid 1px black;
+    width: 4em;
+    cursor: pointer;
+}
+
+.increments .increments__btn + .increments__btn {
+    border-left: none;
+}
+
+.increments .increments__btn.increments__btn-left {
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    padding-bottom: 0.2em;
+}
+
+.increments .increments__btn.increments__btn-left .increment__sign {
+    position: relative;
+    bottom: 0.1em;
+}
+
+.increments .increments__btn.increments__btn-right {
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+.info-block {
+    display: inline-block;
+    border: 1px solid black;
+    height: 2.3em;
+    vertical-align: top;
+}
+
+.info-block .info-block__label {
+    width: 8.5em;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.info-block .info-block__content {
+    display: inline-block;
+    width: 1.2em;
+    line-height: 2;
+}
